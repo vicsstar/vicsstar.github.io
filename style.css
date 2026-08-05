@@ -1029,3 +1029,89 @@ footer p{
     }
 
 }
+
+/* Active navigation */
+
+nav a.active{
+
+    color:white;
+
+}
+
+/* Reveal animations */
+
+.hidden{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    transition:.7s ease;
+
+}
+
+.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+/* Header */
+
+header.scrolled{
+
+    box-shadow:0 12px 35px rgba(0,0,0,.35);
+
+}
+
+/* Back to top */
+
+#backToTop{
+
+    position:fixed;
+
+    right:25px;
+
+    bottom:25px;
+
+    width:52px;
+
+    height:52px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transition:.3s;
+
+    z-index:999;
+
+}
+
+#backToTop.visible{
+
+    opacity:1;
+
+    visibility:visible;
+
+}
+
+#backToTop:hover{
+
+    transform:translateY(-4px);
+
+}
