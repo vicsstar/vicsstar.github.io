@@ -1120,4 +1120,5 @@ header.scrolled{
 
 .stats-grid {
    display: grid;
+   grid-template-columns: auto auto auto auto;
 }
