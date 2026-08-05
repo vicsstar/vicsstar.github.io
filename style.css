@@ -1117,3 +1117,7 @@ header.scrolled{
     transform:translateY(-4px);
 
 }
+
+.stats-grid {
+   display: grid;
+}
