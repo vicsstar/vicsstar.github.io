@@ -1,0 +1,15 @@
+theme: jekyll-theme-minimal
+
+title: Victor Igbokwe
+
+description: >
+  Senior Backend & Full-Stack Software Engineer with 15+ years of experience
+  building scalable backend systems, REST APIs, microservices, and enterprise
+  integrations. Based in Helsinki, Finland.
+
+logo: /assets/profile.jpg
+
+show_downloads: true
+
+github:
+  is_project_page: false
